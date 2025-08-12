@@ -40,13 +40,14 @@ python -m venv venv
 ```
 
 2. Activo el entorno virtual:
+
 En Windows
 ```bash
-venv\Scripts\activate      # En Windows
+venv\Scripts\activate
 ```
 En Linux/Mac
 ```bash
-source venv/bin/activate   # En Linux/Mac
+source venv/bin/activate
 ```
 
 3. Instalo las dependencias necesarias:
