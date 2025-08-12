@@ -12,7 +12,7 @@ Aquí se almacenan apuntes, prácticas de laboratorio, ejercicios y proyectos re
 
 - **/apuntes/** → Material teórico de clases, resúmenes y diagramas.
 - **/practicas/** → Guías de laboratorio, datos experimentales y resultados.
-- **/scripts/** → Códigos en Python/Matlab para análisis de datos y cálculos.
+- **/scripts/** → Códigos en Python para análisis de datos y cálculos.
 - **/informes/** → Informes de laboratorio en formato PDF o LaTeX.
 - **/recursos/** → Hojas de datos, manuales de instrumentos, normas técnicas.
 
