@@ -45,3 +45,13 @@ print(f"u_c:      {f'{u_c:0.4f}':>10} mA")
 v_eff = (u_c**4) / ((u_i**4) / (len(arr_muestra) - 1))
 print(f"\nGL EFECTIVOS:")
 print(f"v_eff:    {f'{v_eff:0.0f}':>10} gl")
+
+
+k = 2.32  # Corresponde a: 9 gl, 95.45% de confianza.
+
+# como los gl son bajos k es grande, por ende pago con
+# incertidumbre para tener mas confianza
+u_exp = k * u_c
+
+print(f"\nINCERTIDUMBRE EXPANDIDA:")
+print(f"u_exp:    {f'{u_exp:0.4f}':>10} mA")
